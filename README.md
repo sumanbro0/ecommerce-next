@@ -8,13 +8,13 @@ $ git clone https://github.com/sumanbro0/ecommerce.git
 # open backend folder in ide;
 
 # create virtual environment;
-$ python -m venv venv
+$ pip install pipenv
 
 # activate virtual environment;
-$ venv/Scripts/activate
+$ pipenv shell
 
 # install required backend python modules;
-$ pip install -r requirements.txt
+$ pipenv install
 
 # NOW FOR FRONTEND
 
