@@ -1,0 +1,131 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&family=Poppins:wght@200;300;400;500;600;700;800&display=swap");
+.fade-anim img {
+  animation: fadeAnim 0.5s ease-out;
+}
+@keyframes fadeAnim {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*,
+::after,
+::before {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+
+  font-family: "Poppins", sans-serif;  
+}
+  
+html {
+  overflow-x: hidden;
+}
+a {
+  display: inline-block;
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.rec.rec-arrow{
+
+  background-color: transparent!important;
+  font-size: 1.5rem;
+  border: none;
+}
+.rec.rec-arrow-left{
+  color: #ac7c2d!important;
+}
+.rec.rec-arrow-left:hover{
+  color: #1a1a1a!important;
+}
+.rec.rec-arrow-right{
+  color: #ac7c2d!important;
+
+}
+.rec.rec-arrow-right:hover{
+  color: #1a1a1a!important;
+}
+.rec.rec-dot_active{
+  background-color: black;
+}
+
+.rec.rec-dot{
+  color: black!important;
+}
+.rec.rec-dot:hover{
+  color: black!important;
+}
+.krmNah{
+  box-shadow: none!important;
+  color: black!important;
+}
+.krmNah:hover, .krmNah:focus {
+    cursor: pointer;
+    box-shadow: none!important;
+}
+
+.rec.rec-carousel{
+  width: 100%;
+}
+
+.react-player__play-icon {
+  border-width: 24px 0px 24px 34px !important;
+  border-color: transparent transparent transparent white;
+}
+.react-player__play-icon:hover {
+  border-color: transparent transparent transparent #c47f12 !important;
+}
+
+.react-player__preview{
+background-image: url(../public/source.jpg)!important;
+}
+
+.MuiRating-icon{
+  color: #ac7c2d;
+}
+.mapouter{
+  position:relative;
+  text-align:right;
+  height:600px;
+  width:700px;
+
+}
+.gmap_canvas {
+  overflow:hidden;
+  background:none!important;
+  height:600px;
+  width:700px;
+}
+.css-1aquho2-MuiTabs-indicator {
+  background-color: #ac7c2d!important ;
+}
+.css-1h9z7r5-MuiButtonBase-root-MuiTab-root{
+  background-color: #ac7c2d;
+  color: white;
+  margin-left: 2px;
+  transition: ease .3s all;
+
+}
+.css-1h9z7r5-MuiButtonBase-root-MuiTab-root:hover{
+  background-color: black;
+}
+.css-1h9z7r5-MuiButtonBase-root-MuiTab-root.Mui-selected {
+  background-color: black;
+  color: white;
+}
+
+
