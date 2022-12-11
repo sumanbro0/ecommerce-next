@@ -3,7 +3,7 @@
 # ecommerce
 
 # At first clone git repository
-$ git clone https://github.com/sumanbro0/ecommerce.git
+$ git clone https://github.com/sumanbro0/ecommerce-next.git
 
 # open backend folder in ide;
 
